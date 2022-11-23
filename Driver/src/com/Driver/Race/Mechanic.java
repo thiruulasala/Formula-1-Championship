@@ -1,10 +1,12 @@
 package com.Driver.Race;
 
-public class Mechanic
+public class Mechanic extends Driver
 {
-    String name;
-    String address;
-    int salary;
+
+        String name;
+        String address;
+        int salary;
+
 
     public Mechanic(String n, String add, int sal) {
         name = n;

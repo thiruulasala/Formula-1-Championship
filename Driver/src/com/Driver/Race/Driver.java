@@ -1,6 +1,10 @@
 package com.Driver.Race;
 
 public class Driver {
+    Driver()
+    {
+
+    }
     String name;
     String address;
     int salary;
