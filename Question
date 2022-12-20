@@ -1,0 +1,16 @@
+Problem Statement:
+
+A Formula 1 Championship comprises of several teams. Each team has two drivers and many mechanics. Drivers and mechanics are both team members and therefore have a common set of details (name and address) about them stored, as well as their annual salary.
+
+A mechanic has a particular role within the team, e.g. basic engineer, data strategist, driver support, etc. They also are either based back at the factory or travel to races. A driver has a number of points, based upon their race results. This said, races and results are beyond the scope of the current system release and therefore hypothetical points may be added to a driver at any time.
+
+As well as having two drivers and a list of mechanics on their records, a team will also have a number of points, based upon the sum of the points of their two drivers, e.g. driver 1 has 20 points and driver 2 has 76 points then the team has 96 points. A team should be able to calculate their points at any time. The size of a team is based on the number of mechanics, as well as their 2 drivers.
+
+A championship should be ordered based on teams and the points they hold, with the team in 1st position being the one that holds the most points.
+
+Expectation here is :
+
+1. you have to design the classes (All the possible classes), with properties & methods
+2. inheritance if required,
+3. Dependencies between the classes
+4. Collections that you use
